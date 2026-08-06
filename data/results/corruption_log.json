@@ -1,0 +1,56 @@
+{
+  "total_initial": 24,
+  "total_corrupted": 23,
+  "corruptions": [
+    {
+      "type": "drop_latest_record",
+      "paper_id": "10.35314/3y9hy151",
+      "details": "Dropped latest published record from dataset."
+    },
+    {
+      "type": "drop_latest_record",
+      "paper_id": "10.20944/preprints202602.0996.v1",
+      "details": "Dropped latest published record from dataset."
+    },
+    {
+      "type": "blank_summary",
+      "paper_id": "10.2118/234689-pa",
+      "details": "Cleared summary content to empty string."
+    },
+    {
+      "type": "blank_summary",
+      "paper_id": "10.1007/s10278-026-02086-9",
+      "details": "Cleared summary content to empty string."
+    },
+    {
+      "type": "inject_noise",
+      "paper_id": "10.21203/rs.3.rs-10178277/v1",
+      "details": "Injected garbled noise text into summary."
+    },
+    {
+      "type": "inject_noise",
+      "paper_id": "10.2196/preprints.106157",
+      "details": "Injected garbled noise text into summary."
+    },
+    {
+      "type": "truncate_title",
+      "paper_id": "10.3390/buildings16132637",
+      "details": "Truncated title from 'An Agentic AI System for Roof Design Compliance Using Computer Vision, Retrieval-Augmented Generation and Large Language Models' to 'An Agentic'."
+    },
+    {
+      "type": "truncate_title",
+      "paper_id": "10.21079/11681/50309",
+      "details": "Truncated title from 'Microsoft Azure artificial intelligence / machine learning hackathon for development of retrieval-augmented generation large language model' to 'Microsoft '."
+    },
+    {
+      "type": "make_stale_date",
+      "paper_id": "10.1111/exsy.70341",
+      "details": "Altered published date to 2010-01-01 and age_days to 5000."
+    },
+    {
+      "type": "add_duplicate",
+      "paper_id": "10.2118/234689-pa",
+      "details": "Duplicated record 0 to create duplicate entry."
+    }
+  ]
+}
