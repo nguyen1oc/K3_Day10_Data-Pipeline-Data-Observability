@@ -7,8 +7,8 @@ All three evaluations use the same test set; therefore metric changes can be com
 | Metric | Baseline | Corrupted | Repaired |
 | --- | ---: | ---: | ---: |
 | samples | 10 | 10 | 10 |
-| retrieval_hit_rate | 0.5000 | 0.5000 | 0.5000 |
-| mean_token_f1 | 0.0061 | 0.0061 | 0.0061 |
+| retrieval_hit_rate | 0.9000 | 0.8000 | 0.9000 |
+| mean_token_f1 | 0.0805 | 0.0410 | 0.0805 |
 | judge_accuracy | 0.0000 | 0.0000 | 0.0000 |
 | mean_judge_score | 1 | 1 | 1 |
 

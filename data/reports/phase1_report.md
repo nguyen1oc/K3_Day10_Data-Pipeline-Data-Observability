@@ -15,8 +15,8 @@
 | Metric | Baseline |
 | --- | ---: |
 | samples | 10 |
-| retrieval_hit_rate | 0.5000 |
-| mean_token_f1 | 0.0061 |
+| retrieval_hit_rate | 0.9000 |
+| mean_token_f1 | 0.0805 |
 | judge_accuracy | 0.0000 |
 | mean_judge_score | 1 |
 
