@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question_type": "factual",
+    "question": "SafeRAG sử dụng bao nhiêu cặp mô tả tai nạn và báo cáo thực tế để xây dựng tập dữ liệu đánh giá?",
+    "ground_truth": "10,818 cặp mô tả tai nạn và báo cáo.",
+    "ground_truth_doc_ids": [
+      "10.2118/234689-pa"
+    ]
+  },
+  {
+    "id": "q2",
+    "question_type": "factual",
+    "question": "JADE-Plus đạt độ chính xác Top-1 và Top-3 bao nhiêu trong bài toán hỗ trợ chẩn đoán tổn thương xương hàm?",
+    "ground_truth": "Top-1 đạt 90% (36/40) và Top-3 đạt 100%.",
+    "ground_truth_doc_ids": [
+      "10.1007/s10278-026-02086-9"
+    ]
+  },
+  {
+    "id": "q3",
+    "question_type": "factual",
+    "question": "Trong nghiên cứu dự báo cổ phiếu đa thị trường, retrieval làm giảm MSE tổng hợp bao nhiêu đối với các nhóm IDX7, US7 và JP7?",
+    "ground_truth": "MSE giảm 28,85% với IDX7, 27,27% với US7 và 33,60% với JP7.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10178277/v1"
+    ]
+  },
+  {
+    "id": "q4",
+    "question_type": "factual",
+    "question": "Vì sao sinh viên y khoa trong nghiên cứu về NotebookLM đánh giá LLM có RAG đáng tin cậy hơn LLM thông thường?",
+    "ground_truth": "Chủ yếu vì hệ thống minh bạch hơn và cho phép người học kiểm soát các nguồn thông tin được sử dụng.",
+    "ground_truth_doc_ids": [
+      "10.2196/preprints.106157"
+    ]
+  },
+  {
+    "id": "q5",
+    "question_type": "factual",
+    "question": "Mô hình nào đạt kết quả tốt nhất trong hệ thống AI kiểm tra tuân thủ thiết kế mái và kết quả F1 cùng accuracy là bao nhiêu?",
+    "ground_truth": "GPT-5.4 đạt kết quả tốt nhất, với F1 = 0,97 và accuracy = 97%.",
+    "ground_truth_doc_ids": [
+      "10.3390/buildings16132637"
+    ]
+  },
+  {
+    "id": "q6",
+    "question_type": "factual",
+    "question": "Hi-RAG cải thiện Top-1 accuracy tối đa bao nhiêu so với Flat-RAG và giảm lượng token tối đa bao nhiêu so với việc đưa toàn bộ context?",
+    "ground_truth": "Hi-RAG cải thiện Top-1 accuracy tối đa 7,5% cho truy vấn một dịch vụ và 10,0% cho truy vấn nhiều dịch vụ, đồng thời giảm lượng token tối đa 89%.",
+    "ground_truth_doc_ids": [
+      "10.1111/exsy.70341"
+    ]
+  },
+  {
+    "id": "q7",
+    "question_type": "factual",
+    "question": "Bài tổng quan thư mục về autonomous agents phân tích bao nhiêu công bố và trong giai đoạn nào?",
+    "ground_truth": "Bài tổng quan phân tích 810 công bố trong giai đoạn 2023–2025.",
+    "ground_truth_doc_ids": [
+      "10.63646/kpqm1958"
+    ]
+  },
+  {
+    "id": "q8",
+    "question_type": "factual",
+    "question": "Chatbot Hybrid Fatwa MUI sử dụng hai nguồn tri thức nào?",
+    "ground_truth": "Hệ thống sử dụng tài liệu Fatwa MUI làm korpus chính và 12.370 hadis Bukhari-Muslim làm nguồn dự phòng.",
+    "ground_truth_doc_ids": [
+      "10.52060/juptik.v4i1.4318"
+    ]
+  },
+  {
+    "id": "q9",
+    "question_type": "factual",
+    "question": "Trong nghiên cứu cung cấp thông tin bảo hiểm tại Kenya, cấu hình nào đạt kết quả tốt nhất và điểm accuracy, succinctness, relevancy lần lượt là bao nhiêu?",
+    "ground_truth": "Cấu hình kết hợp fine-tuning và RAG đạt tốt nhất, với accuracy 6,803, succinctness 7,03 và relevancy 6,89.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9770645/v1"
+    ]
+  },
+  {
+    "id": "q10",
+    "question_type": "factual",
+    "question": "Hệ thống RAG cho chatbot dịch vụ trường USTI đạt Precision@3, Recall@3 và NDCG@3 bao nhiêu với cấu hình hybrid retrieval?",
+    "ground_truth": "Precision@3 đạt 71,7%, Recall@3 đạt 87,5% và NDCG@3 đạt 96,3%.",
+    "ground_truth_doc_ids": [
+      "10.35314/3y9hy151"
+    ]
+  }
+]
