@@ -1,7 +1,65 @@
-solution/
+# Environment & Secrets
 .env
-lab.txt
+.env.*
+!.env.example
+
+# Python Virtual Environments
 .venv/
-src/*.egg-info/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Build & Package Artifacts
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Vector Store & Generated Data Artifacts (JSON, CSV, MD in data/)
+data/chroma/*
+!data/chroma/.gitkeep
+data/**/*.json
+data/**/*.csv
+data/**/*.md
+!data/**/.gitkeep
+
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# Solution & Lab Scratch
+solution/
 lab/
-**/__pycache__/
+lab.txt

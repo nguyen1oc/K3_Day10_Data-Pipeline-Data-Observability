@@ -192,7 +192,7 @@ def save_clean_data(df: pd.DataFrame, csv_path: Path, json_path: Path) -> None:
     for col in ["published_date", "updated_date"]:
         if col in df_json.columns:
             df_json[col] = df_json[col].apply(
-                lambda x: x.isoformat() if pd.notna(x) else None
+                lambda x: x.isoformat() if hasattr(x, "isoformat") else (str(x) if pd.notna(x) else None)
             )
     json_data = df_json.to_dict(orient="records")
     write_json(json_path, json_data)
