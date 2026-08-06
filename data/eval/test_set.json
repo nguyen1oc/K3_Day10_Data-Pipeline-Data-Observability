@@ -2,8 +2,8 @@
   {
     "id": "q1",
     "question_type": "factual",
-    "question": "SafeRAG sử dụng bao nhiêu cặp mô tả tai nạn và báo cáo thực tế để xây dựng tập dữ liệu đánh giá?",
-    "ground_truth": "10,818 cặp mô tả tai nạn và báo cáo.",
+    "question": "How many accident description-report pairs were used to construct the evaluation dataset in the SafeRAG study?",
+    "ground_truth": "10,818 accident description-report pairs.",
     "ground_truth_doc_ids": [
       "10.2118/234689-pa"
     ]
@@ -11,8 +11,8 @@
   {
     "id": "q2",
     "question_type": "factual",
-    "question": "JADE-Plus đạt độ chính xác Top-1 và Top-3 bao nhiêu trong bài toán hỗ trợ chẩn đoán tổn thương xương hàm?",
-    "ground_truth": "Top-1 đạt 90% (36/40) và Top-3 đạt 100%.",
+    "question": "What Top-1 and Top-3 diagnostic accuracy did JADE-Plus achieve in the jawbone lesion diagnostic support study?",
+    "ground_truth": "Top-1 accuracy of 90% (36/40) and Top-3 accuracy of 100%.",
     "ground_truth_doc_ids": [
       "10.1007/s10278-026-02086-9"
     ]
@@ -20,8 +20,8 @@
   {
     "id": "q3",
     "question_type": "factual",
-    "question": "Trong nghiên cứu dự báo cổ phiếu đa thị trường, retrieval làm giảm MSE tổng hợp bao nhiêu đối với các nhóm IDX7, US7 và JP7?",
-    "ground_truth": "MSE giảm 28,85% với IDX7, 27,27% với US7 và 33,60% với JP7.",
+    "question": "In the cross-market equity forecasting study, by how much did retrieval reduce the aggregate MSE for the IDX7, US7, and JP7 datasets?",
+    "ground_truth": "MSE was reduced by 28.85% for IDX7, 27.27% for US7, and 33.60% for JP7.",
     "ground_truth_doc_ids": [
       "10.21203/rs.3.rs-10178277/v1"
     ]
@@ -29,8 +29,8 @@
   {
     "id": "q4",
     "question_type": "factual",
-    "question": "Vì sao sinh viên y khoa trong nghiên cứu về NotebookLM đánh giá LLM có RAG đáng tin cậy hơn LLM thông thường?",
-    "ground_truth": "Chủ yếu vì hệ thống minh bạch hơn và cho phép người học kiểm soát các nguồn thông tin được sử dụng.",
+    "question": "Why did medical students perceive the RAG-enabled NotebookLM as more trustworthy than a standard large language model?",
+    "ground_truth": "Because it provided greater transparency and allowed users to verify and control the information sources used by the model.",
     "ground_truth_doc_ids": [
       "10.2196/preprints.106157"
     ]
@@ -38,8 +38,8 @@
   {
     "id": "q5",
     "question_type": "factual",
-    "question": "Mô hình nào đạt kết quả tốt nhất trong hệ thống AI kiểm tra tuân thủ thiết kế mái và kết quả F1 cùng accuracy là bao nhiêu?",
-    "ground_truth": "GPT-5.4 đạt kết quả tốt nhất, với F1 = 0,97 và accuracy = 97%.",
+    "question": "Which model achieved the best performance in the AI-based roof design compliance system, and what were its F1 score and accuracy?",
+    "ground_truth": "GPT-5.4 achieved the best performance with an F1 score of 0.97 and an accuracy of 97%.",
     "ground_truth_doc_ids": [
       "10.3390/buildings16132637"
     ]
@@ -47,8 +47,8 @@
   {
     "id": "q6",
     "question_type": "factual",
-    "question": "Hi-RAG cải thiện Top-1 accuracy tối đa bao nhiêu so với Flat-RAG và giảm lượng token tối đa bao nhiêu so với việc đưa toàn bộ context?",
-    "ground_truth": "Hi-RAG cải thiện Top-1 accuracy tối đa 7,5% cho truy vấn một dịch vụ và 10,0% cho truy vấn nhiều dịch vụ, đồng thời giảm lượng token tối đa 89%.",
+    "question": "How much did Hi-RAG improve Top-1 accuracy over Flat-RAG, and what was the maximum reduction in token consumption?",
+    "ground_truth": "Hi-RAG improved Top-1 accuracy by up to 7.5% for single-service queries and 10.0% for multi-service queries, while reducing token consumption by up to 89%.",
     "ground_truth_doc_ids": [
       "10.1111/exsy.70341"
     ]
@@ -56,8 +56,8 @@
   {
     "id": "q7",
     "question_type": "factual",
-    "question": "Bài tổng quan thư mục về autonomous agents phân tích bao nhiêu công bố và trong giai đoạn nào?",
-    "ground_truth": "Bài tổng quan phân tích 810 công bố trong giai đoạn 2023–2025.",
+    "question": "How many publications were analyzed in the bibliometric review of autonomous agents, and what time period did the review cover?",
+    "ground_truth": "The review analyzed 810 publications covering the period from 2023 to 2025.",
     "ground_truth_doc_ids": [
       "10.63646/kpqm1958"
     ]
@@ -65,8 +65,8 @@
   {
     "id": "q8",
     "question_type": "factual",
-    "question": "Chatbot Hybrid Fatwa MUI sử dụng hai nguồn tri thức nào?",
-    "ground_truth": "Hệ thống sử dụng tài liệu Fatwa MUI làm korpus chính và 12.370 hadis Bukhari-Muslim làm nguồn dự phòng.",
+    "question": "What two knowledge sources are used in the Hybrid Fatwa MUI chatbot?",
+    "ground_truth": "The system uses MUI Fatwa documents as the primary knowledge base and 12,370 Bukhari-Muslim hadiths as the fallback knowledge source.",
     "ground_truth_doc_ids": [
       "10.52060/juptik.v4i1.4318"
     ]
@@ -74,8 +74,8 @@
   {
     "id": "q9",
     "question_type": "factual",
-    "question": "Trong nghiên cứu cung cấp thông tin bảo hiểm tại Kenya, cấu hình nào đạt kết quả tốt nhất và điểm accuracy, succinctness, relevancy lần lượt là bao nhiêu?",
-    "ground_truth": "Cấu hình kết hợp fine-tuning và RAG đạt tốt nhất, với accuracy 6,803, succinctness 7,03 và relevancy 6,89.",
+    "question": "In the Kenya insurance information study, which configuration achieved the best overall performance, and what were its accuracy, succinctness, and relevancy scores?",
+    "ground_truth": "The combined fine-tuning and RAG configuration achieved the best performance, with an accuracy score of 6.803, a succinctness score of 7.03, and a relevancy score of 6.89.",
     "ground_truth_doc_ids": [
       "10.21203/rs.3.rs-9770645/v1"
     ]
@@ -83,8 +83,8 @@
   {
     "id": "q10",
     "question_type": "factual",
-    "question": "Hệ thống RAG cho chatbot dịch vụ trường USTI đạt Precision@3, Recall@3 và NDCG@3 bao nhiêu với cấu hình hybrid retrieval?",
-    "ground_truth": "Precision@3 đạt 71,7%, Recall@3 đạt 87,5% và NDCG@3 đạt 96,3%.",
+    "question": "What Precision@3, Recall@3, and NDCG@3 did the hybrid retrieval configuration achieve in the USTI student services chatbot?",
+    "ground_truth": "Precision@3 was 71.7%, Recall@3 was 87.5%, and NDCG@3 was 96.3%.",
     "ground_truth_doc_ids": [
       "10.35314/3y9hy151"
     ]
