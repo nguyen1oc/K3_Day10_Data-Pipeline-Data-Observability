@@ -1,0 +1,32 @@
+{
+  "report_name": "test_quality",
+  "passed": true,
+  "total_rows": 1,
+  "checks": {
+    "row_count": {
+      "passed": true,
+      "total_rows": 1
+    },
+    "paper_id_unique": {
+      "passed": true,
+      "null_count": 0,
+      "duplicate_count": 0,
+      "unique_count": 1
+    },
+    "title_not_null": {
+      "passed": true,
+      "null_count": 0,
+      "empty_count": 0
+    },
+    "summary_quality": {
+      "passed": true,
+      "null_count": 0,
+      "short_count": 0
+    },
+    "freshness": {
+      "passed": true,
+      "stale_records": 0,
+      "threshold_days": 180
+    }
+  }
+}
