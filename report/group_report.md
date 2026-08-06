@@ -6,20 +6,20 @@
 
 | Thông tin         | Nội dung                  |
 | ------------------ | -------------------------- |
-| Khóa/Lớp         | [K3 hoặc K4]              |
-| Tên nhóm         | [Tên hoặc mã nhóm]     |
-| Repository         | [Đường dẫn repository] |
-| Ngày hoàn thành | [YYYY-MM-DD]               |
+| Khóa/Lớp         | K3          |
+| Tên nhóm         | bo pc     |
+| Repository         | https://github.com/nguyen1oc/K3_Day10_Data-Pipeline-Data-Observability |
+| Ngày hoàn thành | [2026-08-06]               |
 
 ### Thành viên và phân công
 
 | STT | Họ và tên | MSSV | Vai trò chính | Module/deliverable sở hữu |
 | --: | --- | --- | --- | --- |
-| 1 | [Họ tên] | [MSSV] | [Vai trò] | [File, hàm hoặc artifact] |
-| 2 | [Họ tên] | [MSSV] | [Vai trò] | [File, hàm hoặc artifact] |
-| 3 | [Họ tên] | [MSSV] | [Vai trò] | [File, hàm hoặc artifact] |
-| 4 | [Nếu có] | [MSSV] | [Vai trò] | [File, hàm hoặc artifact] |
-| 5 | [Nếu có] | [MSSV] | [Vai trò] | [File, hàm hoặc artifact] |
+| 1 | Nguyễn Anh Quân | 2A202601251  | Thành viên 1 | crossref.py |
+| 2 | Lê Bình nguyên | 2A202601659 | Thành viên 2 | corruption.py, phase1.py, corruption_flow.py |
+| 3 | Nguyễn Thiên lộc | 2A202601479 | Thành viên 3 - leader | quality.py, reporting.py |
+| 4 | Phạm Văn Thắng  | 2A202601359 | Thành viên 4 | corruption.py, phase1.py, corruption_flow.py |
+
 
 ## 2. Tóm tắt kết quả
 
